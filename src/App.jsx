@@ -46,7 +46,7 @@ function App() {
         <label htmlFor="weight">Weight (kg) : </label>
         <input type="text" placeholder='Enter weight in kg' value={weight} onChange={(e)=>setweight((e.target.value))}/>
 
-        <label htmlFor="height">Height (m) : </label>
+        <label htmlFor="height">Height (cm) : </label>
         <input type="text" placeholder='Enter height in cm' value ={height} onChange={(e)=>setheight(e.target.value)} />
 
       <div className="btn">
